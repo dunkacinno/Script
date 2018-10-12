@@ -1,0 +1,18 @@
+// SONICBOOT V0.0.1
+// MARCUS BEECHER
+// https://github.com/dunkacinno/Script
+
+FUNCTION NOTIFY {
+	PARAMETER MESSAGE.
+	HUDTEXT("KOS: " + MESSAGE, 5, 2, 50, WHITE, FALSE).
+	
+	}
+	
+IF ALT:RADAR < 10 {
+	COPYPATH("0:/COUNTDOWN","").
+	COPYPATH("0:/SONIC.ABORT.KS","").
+	COPYPATH("0:/SONIC.ABORT.KS","").
+
+}
+	
+
